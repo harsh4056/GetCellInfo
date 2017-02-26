@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GetCell Info</string>
+    <string name="title_activity_cell_idto_lat_long">CellIDToLatLong</string>
+</resources>

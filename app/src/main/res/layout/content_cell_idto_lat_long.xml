@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- Input-Stuff -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CELL-ID"
+        />
+    <EditText id="@+id/edit_cellid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        />
+    <!-- The Buttons next to each other -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAC"
+        />
+    <EditText id="@+id/edit_lac"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button id="@+id/cmd_update"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Update"
+            />
+        <Button id="@+id/cmd_locateme"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Locate Me!">
+            <requestFocus/>
+        </Button>
+    </LinearLayout>
+</LinearLayout>
